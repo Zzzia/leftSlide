@@ -2,12 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="80dp"
     android:orientation="horizontal">
     <FrameLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="match_parent">
         <ImageView
             android:background="@drawable/card"
             android:scaleType="fitXY"
@@ -22,7 +22,8 @@
     <FrameLayout
         android:id="@+id/item_cancel"
         android:layout_width="50dp"
-        android:layout_height="80dp">
+        android:layout_height="70dp"
+        android:layout_gravity="center">
         <ImageView
             android:background="@drawable/cancel_back"
             android:scaleType="fitXY"
@@ -30,8 +31,9 @@
             android:layout_height="match_parent" />
         <ImageView
             android:background="@drawable/cancel"
+            android:scaleType="center"
             android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
     </FrameLayout>
 </LinearLayout>
